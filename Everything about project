@@ -1,0 +1,50 @@
+What is Pygame?
+Pygame is a 
+1. Open-source module for the Python programming language 
+2. Used to make games and other multimedia applications. 
+3. Built on top of the highly portable SDL (Simple DirectMedia Layer) development library.
+4. Pygame can run across many platforms and operating systems.
+
+What is SDL development library?
+Simple DirectMedia Layer 
+A software library that allows to create video games.
+PyGame (it's in Python too and it uses SDL under the cover).
+
+Implementation
+
+1. Import pygame
+-Imports the pygame classes, methods and attributes into the current name space.
+-The import statement writes the pygame version & link to the Pygame website to the console.
+
+2. Pygame’s functionalities 
+To initialize pygame use pygame.init() function.
+To quit use pygame.quit().
+
+Function display.set_mode() sets the screen size.
+-Returns a Surface object wich we assign to the variable 'screen'.
+-It represents the window we see.
+
+Essential part of a interactive application is the "event loop". 
+Reacting to events allows the user to interact with the application. 
+Events are the things that can happen in a program:
+mouse click, mouse movement, keyboard press, joystick action.
+
+Colors- tree base colors- 'rgb'
+RED-(255,0,0)
+GREEN-(0,255,0)
+BLUE-(0,0,255)
+Base colors BLACK-(0,0,0)
+WHITE-(255,255,255)
+GRAY-(127,127,127)
+Method fill(color) fills the whole screen with the specified color.
+Function pygame.display.update() must be called after above statement.
+
+pygame.locals module contains some 280 constants.
+pygame.display.set_caption(title) allows to change the title of the application window. 
+blit-draw
+
+press space bar only in ready
+# Inside brackets its a tuple, widht=800 and height=600 
+
+
+
